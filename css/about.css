@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aboutbann{
+    background-image:   url("../img/about/banner.png");
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    color: #fff;
+}
+.aboutban{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.aboutban h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+.aboutban p{
+    color: #fff;
+}
+.whowe{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 30px 10px;
+}
+.abouimg{
+    background-image: url(../img/about/a6.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+    height: 300px;
+    border-radius: 5px;
+}
+.abouinfo{
+    margin-left: 30px;
+    width: 50%;
+
+}
+.abouinfo h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.down{
+    text-align: center;
+    margin: 60px 0;
+}
+.down h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.down a{
+    color: #9a3197;
+    text-decoration: none;
+}
+.video{
+   text-align: center;
+}
+
+marquee{
+    background-color: #ff96da29;
+    border-radius: 5px;
+}
+
+.video video{
+    width: 70%;
+    border-radius: 20px;
+    margin: 30px 0;
+}
+
+@media (max-width: 700px) {
+    .whowe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .abouimg{
+        width: 100%;
+    }
+    .abouinfo{
+        width: 100%;
+    }
+    .video video{
+        width: 80%;
+    }
+    
+  }

@@ -1,0 +1,53 @@
+.proa{
+  text-decoration: none;
+  color: #000;
+}
+.pro-contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+.pro{
+      width: 23%;
+      min-width: 250px;
+      padding: 10px 12px;
+      margin: 20px 10px;
+      border: 1px solid #cce7d0;
+      position: relative;
+      border-radius: 20px;
+  }
+ .pro img{
+      width: 100%;
+  }
+.pro .descrption p{
+      text-align: left;
+  }
+.pro .descrption h3{
+      font-size: 20px;
+      font-weight: bold;
+      text-align: left;
+  }
+.pro .descrption .star{
+    margin: 10px 0;
+  }
+.pro .descrption .star i{
+      color: gold;
+  }
+.pro h3 span{
+      color: #9a3197;
+  }
+.pro a i{
+     color: #9a3197;
+     font-size: 25px;
+     position: absolute;
+     right: 10px;
+     bottom: 5px;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background-color: #fef3c7;
+     line-height: 40px;
+     
+  }
+  /* prodect end */
